@@ -4,12 +4,13 @@ import Banner from "../Banner/Banner";
 
 const Home = () => {
     return (
-        <div>
-            <Navbar></Navbar>
+        <div >
+
             <div className="max-w-screen-xl mx-auto">
+                <Navbar></Navbar>
                 <Banner></Banner>
+                <Footer></Footer>
             </div>
-            <Footer></Footer>
         </div>
     );
 };
