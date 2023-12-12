@@ -3,9 +3,8 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     const link = <>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/blog">Blog</Link></li>
+        <li><Link to="/about">About Me</Link></li>
         <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/service">Service</Link></li>
     </>
     return (
         <div className="navbar bg-[#0D0D0D]  bg-opacity-60 text-white z-50 sticky top-0">
