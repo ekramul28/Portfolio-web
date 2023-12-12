@@ -3,11 +3,11 @@ import Contact from "../Contact/Contact";
 const ContactR = () => {
     return (
         <div >
-            <div className="flex ">
-                <div className="w-1/2">
+            <div className=" md:flex ">
+                <div className="md:w-1/2">
                     <img src="https://i.ibb.co/SBTtj11/5124556-removebg-preview.png" alt="" />
                 </div>
-                <div className="w-1/2 mx-3 py-5">
+                <div className="md:w-1/2 mx-3 md:py-5">
                     <form>
                         <div className="form-control">
                             <label className="label">
