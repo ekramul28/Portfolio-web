@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const link = <>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About Me</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li className="font-semibold text-lg "><Link to="/">Home</Link></li>
+        <li className="font-semibold text-lg "><Link to="/about">About Me</Link></li>
+        <li className="font-semibold text-lg "><Link to="/contact">Contact</Link></li>
     </>
     return (
         <div className="navbar bg-[#0D0D0D]  bg-opacity-60 text-white z-50 sticky top-0">
@@ -18,17 +18,19 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <Link to="/">
-                    <p className="btn btn-ghost text-xl opacity-100">EKRAMUL<span className="text-yellow-500">.COM</span></p>
+                    <p className="btn btn-ghost text-xl opacity-100">EKRAMUL<span className="text-yellow-500 hidden md:block">.COM</span></p>
 
                 </Link>
             </div>
-            <div className="navbar-center hidden lg:flex ">
-                <ul className="menu menu-horizontal px-1">
-                    {link}
-                </ul>
-            </div>
+
             <div className="navbar-end">
-                <Link to='https://drive.google.com/u/0/uc?id=1EYvEN5ecbttR4lBh9ENS5_Hy_lgCUWuz&export=download' className="btn opacity-100 ">download Resume</Link>
+                <div className="navbar-center hidden lg:flex ">
+                    <ul className="menu menu-horizontal px-1">
+                        {link}
+                    </ul>
+                </div>
+
+                <Link to='https://drive.google.com/u/0/uc?id=1EYvEN5ecbttR4lBh9ENS5_Hy_lgCUWuz&export=download' className="btn opacity-100 ">Download Resume</Link>
             </div>
         </div>
     );
