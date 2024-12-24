@@ -30,7 +30,7 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <Link to='https://drive.google.com/u/0/uc?id=1EYvEN5ecbttR4lBh9ENS5_Hy_lgCUWuz&export=download' className="btn opacity-100 ">Download Resume</Link>
+                <Link to='https://drive.google.com/u/0/uc?id=1SaQvt_s7cUj2JwEnBTpkHRgJjSYZ_m11&export=download' className="btn opacity-100 ">Download Resume</Link>
             </div>
         </div>
     );
